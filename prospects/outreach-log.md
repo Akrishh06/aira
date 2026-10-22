@@ -71,3 +71,11 @@ The URL is unlisted (noindex); it was shared with the owner in chat. Not committ
 | 2026-10-22 | Beauty Room by Mel, Cherrybrook | beauty-room-by-mel | https://beauty-room-by-mel.vercel.app | email beautyroombymel@outlook.com.au + SMS 0401 123 448 | emailed, sms-pending | Home-based, address hidden. Treatment finder |
 
 All batch 1–6 SMS/calls were marked done in the outbox at the owner's request.
+
+## Batch 8: 2026-10-22 (mobile + email)
+| Date | Business | Folder | Live demo | Channel | Status | Notes |
+|---|---|---|---|---|---|---|
+| 2026-10-22 | MnM Electrical, Campbelltown | mnm-electrical | https://mnm-electrical.vercel.app | email solarelectricalservices@hotmail.com + SMS 0405 271 636 | emailed, sms-pending | 5.0★ (4). mnmelectrical.com.au returns 503, ownership unconfirmed, so the email says "couldn't find a working website". EV charging calculator |
+| 2026-10-22 | KSG Automotive, Shalvey | ksg-automotive | https://ksg-automotive.vercel.app | email ksgauto27@gmail.com + SMS 0429 707 373 | emailed, sms-pending | No website. Car noise decoder |
+| 2026-10-22 | Finesse by Tara, Coogee | finesse-by-tara | https://finesse-by-tara.vercel.app | email finessebytara@gmail.com + SMS 0415 937 646 | emailed, sms-pending | No website. Live open-now + weekly hours timeline |
+| 2026-10-22 | Apap's Plumbing, Hills District | apaps-plumbing | https://apaps-plumbing.vercel.app | email apapsplumbing@gmail.com + SMS 0416 157 021 | emailed, sms-pending | No website. Dripping-tap cost calculator |
