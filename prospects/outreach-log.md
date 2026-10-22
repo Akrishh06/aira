@@ -28,3 +28,13 @@ Use DNS (`https://dns.google/resolve?name=<domain>`; Status 3 means the domain d
 
 ## Upgrades
 - 2026-10-22: added animations to every active demo (scroll reveals, animated hero, progress bar, card tilt, button shine) plus one interactive feature each: Mr Poo problem checker, Cafe order-ahead cup builder, Surry Cutters "find your look" quiz, M V Motors warning-light decoder, Tapered fade visualiser. Redeployed to the same URLs.
+
+## Batch 4: 2026-10-22 (all have a mobile, so email + SMS)
+| Date | Business | Folder | Live demo | Channel | Status | Notes |
+|---|---|---|---|---|---|---|
+| 2026-10-22 | Electrical Works Sydney (Samy), West Ryde | electrical-works-sydney | https://electrical-works-sydney.vercel.app | email electricalworkssydney@hotmail.com + SMS 0433 975 175 | emailed, sms-pending | Their domain is parked "for sale". 5.0★ (4). Interactive job planner |
+| 2026-10-22 | Diamond Star Painters, Prestons | diamond-star-painters | https://diamond-star-painters.vercel.app | email diamondstarpainters@gmail.com + SMS 0422 802 504 | emailed, sms-pending | No website. 5.0★ (6). Room colour visualiser |
+| 2026-10-22 | Barkers Grooming and Dog Washing, West Pymble | barkers-grooming | https://barkers-grooming.vercel.app | email thompsongrooming@gmail.com + SMS 0430 245 309 | emailed, sms-pending | No website (barkersgrooming.com.au is an unrelated Brisbane business). Home-based, so the street address is hidden on the site. Groom finder |
+| 2026-10-22 | Christina's Salon Styling, Bankstown | christinas-salon | https://christinas-salon.vercel.app | email xristinaklioti@gmail.com + SMS 0451 113 959 | emailed, sms-pending | No website. Occasion style finder + countdown |
+
+Skipped: Atlantic Painting, Bexley. atlanticpainting.com.au already holds another web designer's "sample layout for client demonstration".
