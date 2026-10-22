@@ -52,6 +52,33 @@ footer{border-top:1px solid #262626;padding:30px 0;color:var(--mut);font-size:.9
 .callbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:20}.callbar a{flex:1;text-align:center;padding:16px;font-weight:800;text-decoration:none}
 .callbar a:first-child{background:var(--gold);color:#111}.callbar a:last-child{background:#fff;color:#111}body{padding-bottom:56px}}
 </style>
+<style id="fx">:root{--fx:#e0b25b;--fxon:#111}
+.fx-shine{vertical-align:middle}@media(min-width:821px){.nav nav{display:flex;align-items:center}}.nav nav a.btn{color:#111}
+#fxprog{position:fixed;top:0;left:0;height:3px;width:0;z-index:999;background:var(--fx,#f5a623);transition:width .1s linear}
+.fx-r{opacity:0;transform:translateY(34px);transition:opacity .85s cubic-bezier(.2,.8,.2,1),transform .85s cubic-bezier(.2,.8,.2,1)}
+.fx-r.fx-in{opacity:1;transform:none}
+.fx-hero>*{opacity:0;transform:translateY(26px);animation:fxUp .9s cubic-bezier(.2,.8,.2,1) forwards}
+.fx-hero>*:nth-child(2){animation-delay:.12s}.fx-hero>*:nth-child(3){animation-delay:.24s}.fx-hero>*:nth-child(4){animation-delay:.36s}.fx-hero>*:nth-child(5){animation-delay:.48s}
+@keyframes fxUp{to{opacity:1;transform:none}}
+.fx-tilt{transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s;position:relative;overflow:hidden}
+.fx-tilt:after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(320px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.14),transparent 45%);opacity:0;transition:opacity .3s}
+.fx-tilt:hover:after{opacity:1}
+.fx-shine{position:relative;overflow:hidden;transition:transform .25s,box-shadow .25s}
+.fx-shine:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.18)}
+.fx-shine:before{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.5) 50%,transparent 70%);transform:translateX(-120%);transition:transform .7s}
+.fx-shine:hover:before{transform:translateX(120%)}
+.fx-blob{position:absolute;border-radius:50%;filter:blur(60px);opacity:.35;pointer-events:none;animation:fxFloat 14s ease-in-out infinite;z-index:0}
+@keyframes fxFloat{50%{transform:translate(-40px,40px) scale(1.12)}}
+.fx-widget{border-radius:22px;padding:30px;margin-top:10px}
+.fx-chips{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 20px}
+.fx-chip{border:1.5px solid currentColor;background:transparent;color:inherit;padding:10px 16px;border-radius:999px;font:inherit;font-weight:600;cursor:pointer;opacity:.75;transition:all .25s}
+.fx-chip:hover{opacity:1;transform:translateY(-2px)}
+.fx-chip.on{opacity:1;background:var(--fx,#f5a623);border-color:var(--fx,#f5a623);color:var(--fxon,#111)}
+.fx-out{min-height:110px;animation:fxUp .5s both}
+.fx-meter{height:10px;border-radius:10px;background:rgba(127,127,127,.2);overflow:hidden;margin:8px 0 14px}
+.fx-meter i{display:block;height:100%;width:0;border-radius:10px;transition:width .8s cubic-bezier(.2,.8,.2,1)}
+@media(prefers-reduced-motion:reduce){.fx-r,.fx-hero>*{opacity:1!important;transform:none!important;animation:none!important;transition:none!important}.fx-blob{animation:none}}
+</style>
 </head>
 <body>
 <div class="pole"></div>
@@ -77,6 +104,35 @@ footer{border-top:1px solid #262626;padding:30px 0;color:var(--mut);font-size:.9
     <div class="it"><div><h3>Kids' Cut</h3><p>Little legends welcome.</p></div><b>$—</b></div>
   </div>
 </div></section>
+
+
+<section id="fade"><div class="wrap">
+  <h2>FADE VISUALISER</h2><p class="sub">Drag to choose how high your fade starts. Low, mid or high, we'll blend it seamlessly.</p>
+  <div class="fx-widget" style="background:var(--card);display:grid;gap:30px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));align-items:center">
+    <svg viewBox="0 0 300 300" style="max-width:320px;width:100%;justify-self:center" aria-hidden="true">
+      <defs><linearGradient id="tf" x1="0" y1="1" x2="0" y2="0"><stop id="t0" offset="0" stop-color="#d9a77f"/><stop id="t1" offset=".3" stop-color="#1c120c" stop-opacity=".15"/><stop id="t2" offset=".5" stop-color="#1c120c"/></linearGradient></defs>
+      <ellipse cx="150" cy="165" rx="82" ry="102" fill="#d9a77f"/><ellipse cx="70" cy="172" rx="13" ry="22" fill="#c99670"/>
+      <path d="M68 180 Q62 80 150 60 Q238 80 232 180 L222 180 Q216 125 150 118 Q84 125 78 180Z" fill="url(#tf)"/>
+      <path id="ttop" d="M74 130 Q76 48 150 40 Q224 48 226 130 Q190 96 150 100 Q110 96 74 130Z" fill="#1c120c" style="transition:d .6s"/>
+      <line id="tline" x1="58" x2="242" y1="170" y2="170" stroke="#e0b25b" stroke-width="2" stroke-dasharray="6 6"/>
+    </svg>
+    <div>
+      <div class="display" id="fName" style="font-family:'Bebas Neue';font-size:3rem;color:var(--gold)">MID FADE</div>
+      <input type="range" id="fr" min="0" max="100" value="50" aria-label="Fade height" style="width:100%;accent-color:#e0b25b;margin:10px 0 16px">
+      <p id="fDesc" style="color:var(--mut)"></p>
+      <div class="fx-chips" id="fTop"></div>
+      <a class="btn" href="#book" id="fBook">Book this fade</a>
+    </div>
+  </div>
+</div></section>
+<script>(()=>{const r=document.getElementById('fr'),n=document.getElementById('fName'),d=document.getElementById('fDesc');let top='Textured crop';
+const tops={'Textured crop':'M74 130 Q76 48 150 40 Q224 48 226 130 Q190 96 150 100 Q110 96 74 130Z','Heavy side part':'M74 130 Q70 40 160 34 Q236 46 228 128 Q200 84 120 92 Q96 98 74 130Z','Short & clean':'M78 128 Q84 66 150 60 Q216 66 222 128 Q190 108 150 110 Q110 108 78 128Z'};
+const ft=document.getElementById('fTop');Object.keys(tops).forEach((k,i)=>{const b=document.createElement('button');b.className='fx-chip'+(i?'':' on');b.textContent=k;b.onclick=()=>{top=k;ft.querySelectorAll('.fx-chip').forEach(x=>x.classList.toggle('on',x===b));document.getElementById('ttop').setAttribute('d',tops[k]);upd()};ft.appendChild(b)});
+function upd(){const v=+r.value/100;const lvl=v<.34?'LOW FADE':v<.67?'MID FADE':'HIGH FADE';n.textContent=lvl;
+d.textContent={'LOW FADE':'Starts just above the ear: subtle, clean and office-friendly.','MID FADE':'Starts at the temple: the all-rounder, sharp but versatile.','HIGH FADE':'Starts near the parietal ridge: bold, high-contrast and fresh.'}[lvl]+' Topped with a '+top.toLowerCase()+'.';
+const a=.05+v*.35;document.getElementById('t1').setAttribute('offset',a);document.getElementById('t2').setAttribute('offset',Math.min(a+.22,.95));document.getElementById('tline').setAttribute('y1',190-v*70);document.getElementById('tline').setAttribute('y2',190-v*70);
+document.getElementById('fBook').onclick=()=>setTimeout(()=>{const t=document.querySelector('#book textarea');if(t)t.value=lvl.toLowerCase()+' with '+top.toLowerCase()},400)}
+r.oninput=upd;upd()})();</script>
 
 <section id="vibe" class="vibe"><div class="wrap">
   <h2>THE SHOP</h2><p class="sub">More than a haircut.</p>
@@ -110,5 +166,22 @@ footer{border-top:1px solid #262626;padding:30px 0;color:var(--mut);font-size:.9
 
 <footer><div class="wrap">© <script>document.write(new Date().getFullYear())</script> Tapered The Barbershop. Demo website by Vvh solutions, not yet live.</div></footer>
 <div class="callbar"><a href="tel:0298371399">📞 Call</a><a href="#book">Book</a></div>
+<script id="fxjs">
+(()=>{const q=s=>[...document.querySelectorAll(s)];
+const p=document.createElement('div');p.id='fxprog';document.body.prepend(p);
+addEventListener('scroll',()=>{const h=document.documentElement;p.style.width=(scrollY/Math.max(1,h.scrollHeight-innerHeight)*100)+'%'},{passive:true});
+const hero=document.querySelector('.hero .wrap, .hero');if(hero){const inner=hero.querySelector(':scope > div:first-child')&&hero.children.length<=2&&hero.querySelector(':scope > div:first-child').children.length>2?hero.querySelector(':scope > div:first-child'):hero;inner.classList.add('fx-hero');
+ const b1=document.createElement('div');b1.className='fx-blob';b1.style.cssText='width:340px;height:340px;background:var(--fx,#f5a623);top:-80px;right:-60px';const sec=document.querySelector('.hero');sec.style.position='relative';sec.style.overflow='hidden';sec.prepend(b1);[...sec.children].forEach(c=>{if(c!==b1){c.style.position=c.style.position||'relative';c.style.zIndex=1}})}
+const sel='section:not(.hero) h2, section:not(.hero) .sub, section .card, section .q, section .rev, section .person, section .it, section .item, .svc > div, .menu > div, .grid > div, .vg > div, .areas, form, details, .hours, iframe, .fx-widget, .stat';
+const els=q(sel).filter(e=>!e.closest('.hero')&&!e.closest('.fx-r'));
+els.forEach((e,i)=>{e.classList.add('fx-r');const sib=[...e.parentElement.children].indexOf(e);e.style.transitionDelay=Math.min(sib,6)*70+'ms'});
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('fx-in');io.unobserve(x.target)}}),{threshold:.12});
+els.forEach(e=>io.observe(e));
+let rq;addEventListener('scroll',()=>{cancelAnimationFrame(rq);rq=requestAnimationFrame(()=>q('.fx-r:not(.fx-in)').forEach(e=>{if(e.getBoundingClientRect().top<innerHeight){e.classList.add('fx-in');io.unobserve(e)}}))},{passive:true});
+q('.btn').forEach(b=>b.classList.add('fx-shine'));
+const hov=matchMedia('(hover:hover)').matches;
+q('.card, .q, .rev, .person, .it, .vg > div, .svc > div').forEach(c=>{c.classList.add('fx-tilt');c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;c.style.setProperty('--mx',x+'px');c.style.setProperty('--my',y+'px');if(hov)c.style.transform=`perspective(800px) rotateX(${(y/r.height-.5)*-5}deg) rotateY(${(x/r.width-.5)*5}deg) translateY(-4px)`});c.addEventListener('pointerleave',()=>c.style.transform='')});
+})();
+</script>
 </body>
 </html>

@@ -20,3 +20,11 @@ Status: `built`, `emailed`, `sms-needed` (no public email, so the owner has to t
 ## How to check whether a site is dead
 Don't trust a failed `curl` from the sandbox: the egress proxy refuses some hosts, which looks the same as a dead site.
 Use DNS (`https://dns.google/resolve?name=<domain>`; Status 3 means the domain doesn't exist) and confirm with WebFetch.
+
+## Batch 3: 2026-10-22
+| Date | Business | Folder | Live demo | Channel | Status | Notes |
+|---|---|---|---|---|---|---|
+| 2026-10-22 | Caveman Barbers, Hunter Connection 109 Pitt St (CBD) | caveman-barbers | https://caveman-barbers.vercel.app | email admin@cavemanbarbers.com.au | emailed | Requested by the user. Has a WordPress site, but About Us is lorem ipsum, there's no Call/Book button on the mobile homepage, and it takes 5s+ to load (90 requests). Premium animated redesign; links to their SimplyBook page |
+
+## Upgrades
+- 2026-10-22: added animations to every active demo (scroll reveals, animated hero, progress bar, card tilt, button shine) plus one interactive feature each: Mr Poo problem checker, Cafe order-ahead cup builder, Surry Cutters "find your look" quiz, M V Motors warning-light decoder, Tapered fade visualiser. Redeployed to the same URLs.

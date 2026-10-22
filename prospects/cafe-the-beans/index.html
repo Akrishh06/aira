@@ -49,6 +49,33 @@ iframe{width:100%;height:100%;min-height:320px;border:0;border-radius:16px}
 footer{padding:36px 0;text-align:center;color:var(--mut);font-size:.92rem}
 @media(max-width:760px){.nav nav{display:none}.visit{grid-template-columns:1fr}}
 </style>
+<style id="fx">:root{--fx:#c89f7a;--fxon:#2a1b12}
+.fx-shine{vertical-align:middle}@media(min-width:821px){.nav nav{display:flex;align-items:center}}.nav nav a.btn{color:#f6efe6}
+#fxprog{position:fixed;top:0;left:0;height:3px;width:0;z-index:999;background:var(--fx,#f5a623);transition:width .1s linear}
+.fx-r{opacity:0;transform:translateY(34px);transition:opacity .85s cubic-bezier(.2,.8,.2,1),transform .85s cubic-bezier(.2,.8,.2,1)}
+.fx-r.fx-in{opacity:1;transform:none}
+.fx-hero>*{opacity:0;transform:translateY(26px);animation:fxUp .9s cubic-bezier(.2,.8,.2,1) forwards}
+.fx-hero>*:nth-child(2){animation-delay:.12s}.fx-hero>*:nth-child(3){animation-delay:.24s}.fx-hero>*:nth-child(4){animation-delay:.36s}.fx-hero>*:nth-child(5){animation-delay:.48s}
+@keyframes fxUp{to{opacity:1;transform:none}}
+.fx-tilt{transition:transform .35s cubic-bezier(.2,.8,.2,1),box-shadow .35s;position:relative;overflow:hidden}
+.fx-tilt:after{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(320px circle at var(--mx,50%) var(--my,50%),rgba(255,255,255,.14),transparent 45%);opacity:0;transition:opacity .3s}
+.fx-tilt:hover:after{opacity:1}
+.fx-shine{position:relative;overflow:hidden;transition:transform .25s,box-shadow .25s}
+.fx-shine:hover{transform:translateY(-2px);box-shadow:0 10px 26px rgba(0,0,0,.18)}
+.fx-shine:before{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.5) 50%,transparent 70%);transform:translateX(-120%);transition:transform .7s}
+.fx-shine:hover:before{transform:translateX(120%)}
+.fx-blob{position:absolute;border-radius:50%;filter:blur(60px);opacity:.35;pointer-events:none;animation:fxFloat 14s ease-in-out infinite;z-index:0}
+@keyframes fxFloat{50%{transform:translate(-40px,40px) scale(1.12)}}
+.fx-widget{border-radius:22px;padding:30px;margin-top:10px}
+.fx-chips{display:flex;flex-wrap:wrap;gap:10px;margin:14px 0 20px}
+.fx-chip{border:1.5px solid currentColor;background:transparent;color:inherit;padding:10px 16px;border-radius:999px;font:inherit;font-weight:600;cursor:pointer;opacity:.75;transition:all .25s}
+.fx-chip:hover{opacity:1;transform:translateY(-2px)}
+.fx-chip.on{opacity:1;background:var(--fx,#f5a623);border-color:var(--fx,#f5a623);color:var(--fxon,#111)}
+.fx-out{min-height:110px;animation:fxUp .5s both}
+.fx-meter{height:10px;border-radius:10px;background:rgba(127,127,127,.2);overflow:hidden;margin:8px 0 14px}
+.fx-meter i{display:block;height:100%;width:0;border-radius:10px;transition:width .8s cubic-bezier(.2,.8,.2,1)}
+@media(prefers-reduced-motion:reduce){.fx-r,.fx-hero>*{opacity:1!important;transform:none!important;animation:none!important;transition:none!important}.fx-blob{animation:none}}
+</style>
 </head>
 <body>
 <header><div class="wrap nav">
@@ -86,6 +113,29 @@ footer{padding:36px 0;text-align:center;color:var(--mut);font-size:.92rem}
   <p class="note">Sample menu. Your real items, prices and photos go here.</p>
 </div></section>
 
+
+<section id="order" style="background:#fff"><div class="wrap">
+  <h2>Order ahead</h2><p class="sub">Build your coffee, then call it through. It'll be waiting when you arrive.</p>
+  <div class="fx-widget" style="background:var(--cream);display:grid;gap:26px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+    <div id="ob"></div>
+    <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
+      <svg viewBox="0 0 120 120" width="170" height="170" aria-hidden="true"><path d="M20 40h70l-8 62a10 10 0 0 1-10 8H38a10 10 0 0 1-10-8z" fill="#fff" stroke="#3b2418" stroke-width="4"/><path d="M90 52h8a12 12 0 0 1 0 24h-11" fill="none" stroke="#3b2418" stroke-width="4"/>
+      <clipPath id="cup"><path d="M22 42h66l-8 60a8 8 0 0 1-8 6H38a8 8 0 0 1-8-6z"/></clipPath><g clip-path="url(#cup)"><rect id="liq" x="0" y="110" width="120" height="80" fill="#6f4e37" style="transition:all .8s cubic-bezier(.2,.8,.2,1)"/><rect id="foam" x="0" y="110" width="120" height="8" fill="#f2e3cf" style="transition:all .8s cubic-bezier(.2,.8,.2,1)"/></g>
+      <g id="steam" opacity="0" style="transition:opacity .6s"><path d="M45 30q-6-8 0-16t0-14" stroke="#c8b6a6" stroke-width="3" fill="none"><animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/></path><path d="M62 30q-6-8 0-16t0-14" stroke="#c8b6a6" stroke-width="3" fill="none"><animate attributeName="opacity" values="0;1;0" dur="2s" begin=".6s" repeatCount="indefinite"/></path></g></svg>
+      <p id="osum" style="font-family:Fraunces,serif;font-size:1.3rem;margin:10px 0 16px;color:var(--brown)">Pick a drink</p>
+      <a class="btn" href="tel:0283843076">📞 Call it through</a>
+    </div>
+  </div>
+</div></section>
+<script>(()=>{const G=[['Drink',['Flat White','Latte','Cappuccino','Long Black','Iced Latte','Chai'],1],['Size',['Small','Regular','Large'],1],['Milk',['Full cream','Skim','Oat','Almond','Soy'],1],['Extras',['Extra shot','Decaf','Sugar','Vanilla syrup'],0]];
+const COL={'Long Black':['#3b2418',0],'Flat White':['#a47551',4],'Latte':['#c49a6c',7],'Cappuccino':['#b88a5a',12],'Iced Latte':['#d2b48c',5],'Chai':['#c68b59',6]};
+const s={};const ob=document.getElementById('ob');
+G.forEach(([n,o,single])=>{const h=document.createElement('div');h.innerHTML=`<strong>${n}</strong>`;const c=document.createElement('div');c.className='fx-chips';s[n]=[];o.forEach(v=>{const b=document.createElement('button');b.className='fx-chip';b.textContent=v;b.onclick=()=>{if(single){s[n]=s[n][0]===v?[]:[v];c.querySelectorAll('.fx-chip').forEach(x=>x.classList.toggle('on',s[n].includes(x.textContent)))}else{const i=s[n].indexOf(v);i<0?s[n].push(v):s[n].splice(i,1);b.classList.toggle('on')}draw()};c.appendChild(b)});h.appendChild(c);ob.appendChild(h)});
+function draw(){const d=s.Drink[0];const lv={Small:62,Regular:52,Large:44}[s.Size[0]||'Regular'];const liq=document.getElementById('liq'),foam=document.getElementById('foam');
+if(d){const [col,f]=COL[d];liq.setAttribute('y',lv);liq.setAttribute('fill',col);foam.setAttribute('y',lv-f/2);foam.setAttribute('height',f)}else{liq.setAttribute('y',110);foam.setAttribute('y',110)}
+document.getElementById('steam').setAttribute('opacity',d&&d!=='Iced Latte'?1:0);
+document.getElementById('osum').textContent=d?[s.Size[0]||'Regular',d,s.Milk[0]&&d!=='Long Black'?'with '+s.Milk[0].toLowerCase()+' milk':'',s.Extras.length?'+ '+s.Extras.join(', ').toLowerCase():''].filter(Boolean).join(' '):'Pick a drink'}})();</script>
+
 <section id="catering" class="feature"><div class="wrap">
   <h2>More than a coffee stop</h2><p class="sub" style="color:#d9c3ae">Easy ways for locals to order.</p>
   <div class="grid">
@@ -111,5 +161,22 @@ footer{padding:36px 0;text-align:center;color:var(--mut);font-size:.92rem}
 </div></section>
 
 <footer>© <script>document.write(new Date().getFullYear())</script> Cafe The Beans, Dulwich Hill. Demo website, not yet live.</footer>
+<script id="fxjs">
+(()=>{const q=s=>[...document.querySelectorAll(s)];
+const p=document.createElement('div');p.id='fxprog';document.body.prepend(p);
+addEventListener('scroll',()=>{const h=document.documentElement;p.style.width=(scrollY/Math.max(1,h.scrollHeight-innerHeight)*100)+'%'},{passive:true});
+const hero=document.querySelector('.hero .wrap, .hero');if(hero){const inner=hero.querySelector(':scope > div:first-child')&&hero.children.length<=2&&hero.querySelector(':scope > div:first-child').children.length>2?hero.querySelector(':scope > div:first-child'):hero;inner.classList.add('fx-hero');
+ const b1=document.createElement('div');b1.className='fx-blob';b1.style.cssText='width:340px;height:340px;background:var(--fx,#f5a623);top:-80px;right:-60px';const sec=document.querySelector('.hero');sec.style.position='relative';sec.style.overflow='hidden';sec.prepend(b1);[...sec.children].forEach(c=>{if(c!==b1){c.style.position=c.style.position||'relative';c.style.zIndex=1}})}
+const sel='section:not(.hero) h2, section:not(.hero) .sub, section .card, section .q, section .rev, section .person, section .it, section .item, .svc > div, .menu > div, .grid > div, .vg > div, .areas, form, details, .hours, iframe, .fx-widget, .stat';
+const els=q(sel).filter(e=>!e.closest('.hero')&&!e.closest('.fx-r'));
+els.forEach((e,i)=>{e.classList.add('fx-r');const sib=[...e.parentElement.children].indexOf(e);e.style.transitionDelay=Math.min(sib,6)*70+'ms'});
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('fx-in');io.unobserve(x.target)}}),{threshold:.12});
+els.forEach(e=>io.observe(e));
+let rq;addEventListener('scroll',()=>{cancelAnimationFrame(rq);rq=requestAnimationFrame(()=>q('.fx-r:not(.fx-in)').forEach(e=>{if(e.getBoundingClientRect().top<innerHeight){e.classList.add('fx-in');io.unobserve(e)}}))},{passive:true});
+q('.btn').forEach(b=>b.classList.add('fx-shine'));
+const hov=matchMedia('(hover:hover)').matches;
+q('.card, .q, .rev, .person, .it, .vg > div, .svc > div').forEach(c=>{c.classList.add('fx-tilt');c.addEventListener('pointermove',e=>{const r=c.getBoundingClientRect(),x=e.clientX-r.left,y=e.clientY-r.top;c.style.setProperty('--mx',x+'px');c.style.setProperty('--my',y+'px');if(hov)c.style.transform=`perspective(800px) rotateX(${(y/r.height-.5)*-5}deg) rotateY(${(x/r.width-.5)*5}deg) translateY(-4px)`});c.addEventListener('pointerleave',()=>c.style.transform='')});
+})();
+</script>
 </body>
 </html>
