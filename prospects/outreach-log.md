@@ -95,3 +95,11 @@ All batch 1–6 SMS/calls were marked done in the outbox at the owner's request.
 | 2026-10-22 | Firm Fencing & Gates, Emu Plains | firm-fencing-and-gates | https://firm-fencing-and-gates.vercel.app | email firmfencingandgates@icloud.com + SMS 0416 300 742 | DRAFT in Gmail (auto-send blocked), sms-pending | No website. Live fence designer |
 | 2026-10-22 | Amart Roofing, Padstow Heights | amart-roofing | https://amart-roofing.vercel.app | email amartroofingservice@gmail.com + SMS 0420 207 876 | DRAFT in Gmail (auto-send blocked), sms-pending | Directory listings only. Roof colour restore visualiser |
 | 2026-10-22 | Eagle Tiling & Waterproofing, Hurstville | eagle-tiling | https://eagle-tiling.vercel.app | email eagletiling@live.com.au + SMS 0452 560 930 | emailed, sms-pending | No website found (eagletiling.com is unrelated or unconfirmed). Tile quantity calculator |
+
+## Batch 11: 2026-10-22 (concrete, handyman, removalist, locksmith)
+| Date | Business | Folder | Live demo | Channel | Status | Notes |
+|---|---|---|---|---|---|---|
+| 2026-10-22 | Betta Crete Concrete (Graeme), Sydney | betta-crete-concrete | https://betta-crete-concrete.vercel.app | email bettacrete1@bigpond.com + SMS 0418 263 983 | emailed, sms-pending | 5.0★ (3), 25-yr customers. bettacrete.com.au returns 503, ownership unconfirmed. Concrete volume calculator |
+| 2026-10-22 | The Bronzed Aussie Handyman, Dural | bronzed-aussie-handyman | https://bronzed-aussie-handyman.vercel.app | email onebronzedaussie@yahoo.com.au + SMS 0438 865 915 | emailed, sms-pending | No website. To-do list builder; address hidden |
+| 2026-10-22 | Whooppi Relocations, Bexley | whooppi-relocations | https://whooppi-relocations.vercel.app | email whooppi@optusnet.com.au + SMS 0419 733 888 | emailed, sms-pending | No website. Move volume estimator; address hidden |
+| 2026-10-22 | Advanced Security Locksmiths, Colebee | advanced-security-locksmiths | https://advanced-security-locksmiths.vercel.app | email service.locksmiths@gmail.com + SMS 0434 377 908 | DRAFT in Gmail (auto-send blocked), sms-pending | advancedsecuritylocksmiths.com.au returns 404, ownership unconfirmed. Lock finder |
