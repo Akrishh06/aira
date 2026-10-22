@@ -38,3 +38,13 @@ Use DNS (`https://dns.google/resolve?name=<domain>`; Status 3 means the domain d
 | 2026-10-22 | Christina's Salon Styling, Bankstown | christinas-salon | https://christinas-salon.vercel.app | email xristinaklioti@gmail.com + SMS 0451 113 959 | emailed, sms-pending | No website. Occasion style finder + countdown |
 
 Skipped: Atlantic Painting, Bexley. atlanticpainting.com.au already holds another web designer's "sample layout for client demonstration".
+
+## Batch 5: 2026-10-22 (all have a mobile, so email + SMS)
+| Date | Business | Folder | Live demo | Channel | Status | Notes |
+|---|---|---|---|---|---|---|
+| 2026-10-22 | Babylon Fadez, Casula | babylon-fadez | https://babylon-fadez-omega.vercel.app | email babylonfadez@gmail.com + SMS 0435 000 357 | emailed, sms-pending | No web presence. Fade builder |
+| 2026-10-22 | Bubbles Blow Dry & Clip (Sandra), Carlton | bubbles-dog-grooming | https://bubbles-dog-grooming-cyan.vercel.app | email sandrathomson15@yahoo.com + SMS 0435 517 840 | DRAFT in Gmail (auto-send was blocked), sms-pending | Old site bubblesblowdryandclip.com.au no longer exists. Pamper journey |
+| 2026-10-22 | Nikki's Beauty Bar, Croydon | nikkis-beauty-bar | https://nikkis-beauty-bar.vercel.app | email nikkisbeautybar01@gmail.com + SMS 0449 121 203 | emailed, sms-pending | Only has a Heygoldie booking page (nikkisbeautybar.com is a Canadian salon). Lash styler; address hidden |
+| 2026-10-22 | Roadmaster Mechanics, Wetherill Park | roadmaster-mechanics | https://roadmaster-mechanics.vercel.app | email saadabosh@yahoo.com + SMS 0401 380 856 | emailed, sms-pending | No website. Service-due gauge |
+
+Skipped: Roll On Automotive. rollonautomotive.com.au shows a different address, phone and contact, so the identity is unclear.
