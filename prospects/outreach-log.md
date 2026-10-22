@@ -61,3 +61,13 @@ Skipped: AS Mechanical Repairs (1★ "rip-off" review). Balmain Plumbing (balmai
 ## SMS outbox
 A phone page with one-tap "Text" buttons (sms: links pre-filled with number + message), call buttons for landlines, and sent tracking.
 The URL is unlisted (noindex); it was shared with the owner in chat. Not committed here because it holds the full contact list.
+
+## Batch 7: 2026-10-22 (mobile + email)
+| Date | Business | Folder | Live demo | Channel | Status | Notes |
+|---|---|---|---|---|---|---|
+| 2026-10-22 | Theiss Electrical (Steve), Jamisontown/Penrith | theiss-electrical | https://theiss-electrical.vercel.app | email theisselectrical@outlook.com + SMS 0432 067 738 | emailed, sms-pending | 4.96★ (28), no website. LED savings calculator |
+| 2026-10-22 | Kingz Barber, 40 Enmore Rd Newtown | kingz-barber-newtown | https://kingz-barber-newtown.vercel.app | email kingzbarber.newtown@gmail.com + SMS 0449 933 188 | emailed, sms-pending | kingzbarber.com is only a "KING'Z" placeholder of unknown ownership. Next-cut countdown + .ics reminder |
+| 2026-10-22 | Woods Plumbing, Cromer | woods-plumbing | https://woods-plumbing-omega.vercel.app | email woods.plumbing@hotmail.com + SMS 0403 218 290 | emailed, sms-pending | woodsplumbing.com.au returns a Cloudflare 522 error; ownership unconfirmed, so the email only says "couldn't find a working website". Hot water health check |
+| 2026-10-22 | Beauty Room by Mel, Cherrybrook | beauty-room-by-mel | https://beauty-room-by-mel.vercel.app | email beautyroombymel@outlook.com.au + SMS 0401 123 448 | emailed, sms-pending | Home-based, address hidden. Treatment finder |
+
+All batch 1–6 SMS/calls were marked done in the outbox at the owner's request.
