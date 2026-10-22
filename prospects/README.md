@@ -38,30 +38,39 @@ Rename each project to something like `mr-poo-plumbing` so the URL reads `mr-poo
 
 ## Outreach messages
 
-Replace `<LINK>` with the Vercel URL and `<YOUR NAME>` / `<PRICE>` with your details. Send them from your own phone or email.
+Sender: **Vvh solutions** (akrishhbali2023@gmail.com).
+Pricing: **$350 one-off** for the full site on the business's own domain, or **$150 upfront + $20/month** including hosting and maintenance.
+Replace `<LINK>` with the deployed demo URL.
+Every email names the sender and includes an opt-out line, as the Australian Spam Act 2003 requires.
 
 ### Mr Poo Plumbing Works (SMS to 0417 271 270)
 
-> Hi Michael, I'm <YOUR NAME>, a local web designer. I noticed mrpoo.com.au isn't loading, so customers searching for you online hit a dead end. Your reviews are great ("didn't charge like a wounded bull"!), so I built you a new site as a preview: <LINK>. It has click-to-call and a quote form that texts straight to your phone. If you'd like it live on your own domain, it's <PRICE>. Happy to change anything. Cheers!
+> Hi Michael, it's Vvh solutions, a Sydney web design studio. mrpoo.com.au isn't loading at the moment, so customers who search for you hit a dead end. We built you a new site as a free preview: <LINK>. It has tap-to-call and a quote form that texts straight to your phone. To keep it, it's $350 one-off, or $150 + $20/month with hosting and updates included. Reply STOP to opt out.
 
 ### Gary Renouf Plumbing (SMS to 0418 265 530)
 
-> Hi Gary, <YOUR NAME> here, a Sydney web designer. 118 reviews at 4.8★ is impressive, but garyrenoufplumbing.com.au is currently down, so Google searchers can't find you. I put together a free preview of a new site covering your plumbing and gutter work: <LINK>. It's mobile-friendly with one-tap calling and online booking requests. If you want it live, it's <PRICE>, and I can set it up on your existing domain. Let me know what you think!
+> Hi Gary, it's Vvh solutions, a Sydney web design studio. 118 reviews at 4.8★ is impressive, but garyrenoufplumbing.com.au is currently down. We built a free preview of a new site covering your plumbing and gutter work: <LINK>. It's $350 one-off, or $150 + $20/month with hosting and maintenance included, and we can put it on your existing domain. Reply STOP to opt out.
 
 ### Cafe The Beans (email to songfiona1@gmail.com)
 
-**Subject:** A free website preview for Cafe The Beans
+**Subject:** We built a free website preview for Cafe The Beans
 
-> Hi Fiona,
+> Hi there,
 >
-> I'm <YOUR NAME>, a web designer based in Sydney. I noticed Cafe The Beans on Marrickville Road doesn't have a website yet, so people searching "cafe Dulwich Hill" on Google can't see your menu or opening hours.
+> We're Vvh solutions, a small web design studio in Sydney. We noticed Cafe The Beans on Marrickville Road doesn't have a website yet, so people searching "cafe Dulwich Hill" can't find your menu or opening hours.
 >
-> I built a preview of what your site could look like: <LINK>
+> We built you a preview: <LINK>
 >
-> It has your menu, opening hours, a map with directions, and one-tap calling for takeaway orders, and it works well on phones. I'd just need your real menu, prices, hours and a few photos to finish it.
+> It includes your menu, opening hours, a map with directions and one-tap calling for takeaway orders, and it works well on phones.
 >
-> If you'd like it live on your own domain (e.g. cafethebeans.com.au), it's <PRICE>, including setup. Happy to make any changes you'd like.
+> Quote:
+> - Option 1: $350 one-off. Full website on your own domain (e.g. cafethebeans.com.au), with your real menu, prices and photos.
+> - Option 2: $150 upfront + $20/month. Same website, plus hosting, updates and menu changes whenever you need them.
 >
-> Thanks,
-> <YOUR NAME>
-> <PHONE>
+> Just reply to this email to go ahead or ask for changes.
+>
+> Cheers,
+> Vvh solutions
+> akrishhbali2023@gmail.com
+>
+> If you'd rather not hear from us, reply "unsubscribe" and we won't contact you again.
