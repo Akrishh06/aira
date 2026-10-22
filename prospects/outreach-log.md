@@ -87,3 +87,11 @@ All batch 1–6 SMS/calls were marked done in the outbox at the owner's request.
 | 2026-10-22 | Suri Rejuvenate & Relaxation, Eastlakes | suri-rejuvenate | https://suri-rejuvenate.vercel.app | email info.suri.rejuvenate@gmail.com + SMS 0420 626 877 | emailed, sms-pending | No web presence. Guided breathing + treatment picker; address hidden |
 | 2026-10-22 | AllUnique Painting, Winston Hills | allunique-painting | https://allunique-painting.vercel.app | email alluniquepainting@gmail.com + SMS 0412 624 228 | emailed, sms-pending | REDESIGN pitch: their site has "#" placeholder links, conflicting phone numbers, a staging-domain gallery and no reviews. Before/after slider |
 | 2026-10-22 | Lash Therapy Studio, Narellan | lash-therapy-studio | https://lash-therapy-studio.vercel.app | email ilashqeen@gmail.com + SMS 0428 183 300 | emailed, sms-pending | No website (lashtherapystudio.com is parked). Lash map finder; address hidden |
+
+## Batch 10: 2026-10-22 (new trades: locksmith, fencing, roofing, tiling)
+| Date | Business | Folder | Live demo | Channel | Status | Notes |
+|---|---|---|---|---|---|---|
+| 2026-10-22 | O'Donovan Locksmith (Harry), mobile Sydney | odonovan-locksmith | https://odonovan-locksmith.vercel.app | email harish.odonovan@gmail.com + SMS 0425 328 511 | emailed, sms-pending | 5.0★ (2), no website. Home security score check |
+| 2026-10-22 | Firm Fencing & Gates, Emu Plains | firm-fencing-and-gates | https://firm-fencing-and-gates.vercel.app | email firmfencingandgates@icloud.com + SMS 0416 300 742 | DRAFT in Gmail (auto-send blocked), sms-pending | No website. Live fence designer |
+| 2026-10-22 | Amart Roofing, Padstow Heights | amart-roofing | https://amart-roofing.vercel.app | email amartroofingservice@gmail.com + SMS 0420 207 876 | DRAFT in Gmail (auto-send blocked), sms-pending | Directory listings only. Roof colour restore visualiser |
+| 2026-10-22 | Eagle Tiling & Waterproofing, Hurstville | eagle-tiling | https://eagle-tiling.vercel.app | email eagletiling@live.com.au + SMS 0452 560 930 | emailed, sms-pending | No website found (eagletiling.com is unrelated or unconfirmed). Tile quantity calculator |
