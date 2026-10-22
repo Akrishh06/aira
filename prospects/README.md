@@ -7,9 +7,9 @@ Each folder is a standalone static site (a single `index.html`) that can be depl
 
 | Business | Suburb | Problem found | Phone | Email | Demo |
 |---|---|---|---|---|---|
-| Mr Poo Plumbing Works (owner: Michael) | Ingleburn | Listed site `mrpoo.com.au` doesn't resolve; 5.0★ (8 reviews) on Yellow Pages | 0417 271 270 | none listed | `mr-poo-plumbing/` |
-| Gary Renouf Plumbing | Gladesville / North Ryde | Listed site `garyrenoufplumbing.com.au` doesn't resolve, despite 4.8★ from 118 reviews and trading since 1997 | 0418 265 530 | none listed | `gary-renouf-plumbing/` |
-| Cafe The Beans | Dulwich Hill | No website at all, only a directory listing | (02) 8384 3076 | songfiona1@gmail.com | `cafe-the-beans/` |
+| Mr Poo Plumbing Works (owner: Michael) | Ingleburn | Listed site `mrpoo.com.au` doesn't resolve; 5.0★ (8 reviews) on Yellow Pages | 0417 271 270 | none listed | [mr-poo-plumbing.vercel.app](https://mr-poo-plumbing.vercel.app) |
+| Gary Renouf Plumbing | Gladesville / North Ryde | Listed site `garyrenoufplumbing.com.au` doesn't resolve, despite 4.8★ from 118 reviews and trading since 1997 | 0418 265 530 | none listed | [gary-renouf-plumbing.vercel.app](https://gary-renouf-plumbing.vercel.app) |
+| Cafe The Beans | Dulwich Hill | No website at all, only a directory listing | (02) 8384 3076 | songfiona1@gmail.com | [cafe-the-beans.vercel.app](https://cafe-the-beans.vercel.app) |
 
 Other leads with no website listed, not built yet: Spot On Plumbing Services, Marrickville (spotonservices@optusnet.com.au, 0414 588 766), and LADY BOSS HAIR, Newtown ((02) 8034 1956).
 
