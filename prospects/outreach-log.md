@@ -79,3 +79,11 @@ All batch 1–6 SMS/calls were marked done in the outbox at the owner's request.
 | 2026-10-22 | KSG Automotive, Shalvey | ksg-automotive | https://ksg-automotive.vercel.app | email ksgauto27@gmail.com + SMS 0429 707 373 | emailed, sms-pending | No website. Car noise decoder |
 | 2026-10-22 | Finesse by Tara, Coogee | finesse-by-tara | https://finesse-by-tara.vercel.app | email finessebytara@gmail.com + SMS 0415 937 646 | emailed, sms-pending | No website. Live open-now + weekly hours timeline |
 | 2026-10-22 | Apap's Plumbing, Hills District | apaps-plumbing | https://apaps-plumbing.vercel.app | email apapsplumbing@gmail.com + SMS 0416 157 021 | emailed, sms-pending | No website. Dripping-tap cost calculator |
+
+## Batch 9: 2026-10-22 (mobile + email)
+| Date | Business | Folder | Live demo | Channel | Status | Notes |
+|---|---|---|---|---|---|---|
+| 2026-10-22 | Barbers Of Narellan | barbers-of-narellan | https://barbers-of-narellan-sooty.vercel.app | email Barbersofnarellan@gmail.com + SMS 0401 164 999 | emailed, sms-pending | Fresha listing only. Cut roulette wheel |
+| 2026-10-22 | Suri Rejuvenate & Relaxation, Eastlakes | suri-rejuvenate | https://suri-rejuvenate.vercel.app | email info.suri.rejuvenate@gmail.com + SMS 0420 626 877 | emailed, sms-pending | No web presence. Guided breathing + treatment picker; address hidden |
+| 2026-10-22 | AllUnique Painting, Winston Hills | allunique-painting | https://allunique-painting.vercel.app | email alluniquepainting@gmail.com + SMS 0412 624 228 | emailed, sms-pending | REDESIGN pitch: their site has "#" placeholder links, conflicting phone numbers, a staging-domain gallery and no reviews. Before/after slider |
+| 2026-10-22 | Lash Therapy Studio, Narellan | lash-therapy-studio | https://lash-therapy-studio.vercel.app | email ilashqeen@gmail.com + SMS 0428 183 300 | emailed, sms-pending | No website (lashtherapystudio.com is parked). Lash map finder; address hidden |
