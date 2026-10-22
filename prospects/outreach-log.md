@@ -48,3 +48,16 @@ Skipped: Atlantic Painting, Bexley. atlanticpainting.com.au already holds anothe
 | 2026-10-22 | Roadmaster Mechanics, Wetherill Park | roadmaster-mechanics | https://roadmaster-mechanics.vercel.app | email saadabosh@yahoo.com + SMS 0401 380 856 | emailed, sms-pending | No website. Service-due gauge |
 
 Skipped: Roll On Automotive. rollonautomotive.com.au shows a different address, phone and contact, so the identity is unclear.
+
+## Batch 6: 2026-10-22 (mobile + email)
+| Date | Business | Folder | Live demo | Channel | Status | Notes |
+|---|---|---|---|---|---|---|
+| 2026-10-22 | Hunters Hill Barber Shop | hunters-hill-barber-shop | https://hunters-hill-barber-shop.vercel.app | email sam2412@hotmail.com + SMS 0424 180 545 | emailed, sms-pending | No website. Beard designer |
+| 2026-10-22 | Instyle Hair Cuts, Kingsgrove | instyle-hair-cuts | https://instyle-hair-cuts.vercel.app | email instylehaircuts@live.com.au + SMS 0402 449 000 | emailed, sms-pending | Fresha listing only. Cut finder |
+| 2026-10-22 | Ace Mowing and Edges, Padstow Heights | ace-mowing-and-edges | https://ace-mowing-and-edges.vercel.app | email acemowingandedges@gmail.com + SMS 0420 612 144 | emailed, sms-pending | No website. Lawn planner with mower animation; home address hidden |
+
+Skipped: AS Mechanical Repairs (1★ "rip-off" review). Balmain Plumbing (balmainplumbing.com.au has a different phone, so the identity is unclear). Your Local Painter (generic name, domains taken).
+
+## SMS outbox
+A phone page with one-tap "Text" buttons (sms: links pre-filled with number + message), call buttons for landlines, and sent tracking.
+The URL is unlisted (noindex); it was shared with the owner in chat. Not committed here because it holds the full contact list.
