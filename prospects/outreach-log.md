@@ -103,3 +103,22 @@ All batch 1–6 SMS/calls were marked done in the outbox at the owner's request.
 | 2026-10-22 | The Bronzed Aussie Handyman, Dural | bronzed-aussie-handyman | https://bronzed-aussie-handyman.vercel.app | email onebronzedaussie@yahoo.com.au + SMS 0438 865 915 | emailed, sms-pending | No website. To-do list builder; address hidden |
 | 2026-10-22 | Whooppi Relocations, Bexley | whooppi-relocations | https://whooppi-relocations.vercel.app | ~~email whooppi@optusnet.com.au~~ REJECTED by Optus spam policy (550 5.7.1) + SMS 0419 733 888 | sms only | No website. Move volume estimator; address hidden |
 | 2026-10-22 | Advanced Security Locksmiths, Colebee | advanced-security-locksmiths | https://advanced-security-locksmiths.vercel.app | email service.locksmiths@gmail.com + SMS 0434 377 908 | DRAFT in Gmail (auto-send blocked), sms-pending | advancedsecuritylocksmiths.com.au returns 404, ownership unconfirmed. Lock finder |
+
+## Batch 12 (v2 creative sites): 2026-10-24
+New template (scratchpad gen2/build2.py): personal welcome splash ("Hey Ram 👋"), a unique interactive hero scene per trade, the trade tool, and a built-in "Claim it" onboarding flow (plan → details → email to Vvh, with confetti). Each site has preview.jpg as its og:image, so texted links show a rich preview card. Emails are now HTML with the screenshot, a CTA button, a #claim link and the Vvh site link.
+Vvh solutions site: https://vvh-solutions.vercel.app (source: prospects/_vvh-solutions)
+
+| Date | Business | Folder | Live demo | Channel | Status | Notes |
+|---|---|---|---|---|---|---|
+| 2026-10-24 | Ram Pest Control (Ram), Campsie | ram-pest-control | https://ram-pest-control.vercel.app | email getridofpest01@gmail.com + SMS 0423 743 812 | emailed, sms-pending | 5.0★ (3). rampestcontrol.com.au returns 503, unconfirmed. Bug-squash hero |
+| 2026-10-24 | Mourani Developments (Jason), Sydney | mourani-developments | https://mourani-developments.vercel.app | email mouranidevelopments@outlook.com + SMS 0432 537 995 | emailed, sms-pending | 5.0★ (5). Aircon + bathrooms. Drag-to-cool thermostat + kW size guide |
+| 2026-10-24 | Warwick Kent Photographer, Crows Nest | warwick-kent-photographer | https://warwick-kent-photographer.vercel.app | email wkentphotos@gmail.com + SMS 0412 466 352 | emailed, sms-pending | No website. Viewfinder/shutter hero |
+| 2026-10-24 | Cake it Happen!, Mulgoa | cake-it-happen | https://cake-it-happen.vercel.app | email cakeithappen@outlook.com + SMS 0477 304 038 | emailed, sms-pending | No website. Candles + make a wish, cake designer |
+| 2026-10-24 | JUST DOGZ, South Hurstville | just-dogz | https://just-dogz.vercel.app | email justdogz.info@gmail.com + SMS 0425 286 673 | emailed, sms-pending | No website. Scrub-the-muddy-pup hero |
+| 2026-10-24 | Welcome Driving School, Sydney | welcome-driving-school | https://welcome-driving-school.vercel.app | email sydneywelcomedriving@gmail.com + SMS 0410 683 519 | emailed, sms-pending | welcomedrivingschool.com.au is an Adelaide school. Steerable road + NSW logbook calculator |
+| 2026-10-24 | Protec Carpet Cleaning, Sydney | protec-carpet-cleaning | https://protec-carpet-cleaning.vercel.app | email proteccarpetcleaning@hotmail.com + SMS 0449 544 323 | emailed, sms-pending | REDESIGN: existing site (2019 footer, no pricing or booking). Vacuum-the-stains hero |
+| 2026-10-24 | Ace Pressure Cleaning, Guildford | ace-pressure-cleaning | https://ace-pressure-cleaning.vercel.app | email acepressurecleaningservices@gmail.com + SMS 0491 681 322 | emailed, sms-pending | No website. Blast-the-driveway hero |
+| 2026-10-24 | Asquith Mini Skips, Asquith | asquith-mini-skips | https://asquith-mini-skips.vercel.app | email Andrew.Giglio@bigpond.com + SMS 0417 849 494 | emailed, sms-pending | No website. Toss-junk-in-the-skip hero |
+| 2026-10-24 | Exclusive Fencing, Riverwood | exclusive-fencing | https://exclusive-fencing.vercel.app | email samexclusivefencing@hotmail.com + SMS 0426 210 900 | emailed, sms-pending | No website found. Drag-to-build fence hero |
+
+Delivery note: the Cafe The Beans email (songfiona1@gmail.com, sent 22 Oct) is delayed; Gmail is retrying (temporary failure).
